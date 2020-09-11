@@ -25,7 +25,7 @@ if __name__ == '__main__':
     result = binary_search(numbers, number_to_find, 0, len(numbers) - 1) # 4 parámetros, la lista, el numero a buscar, por donde empezar y donde terminar.
 
     if result is True:
-      print(f'El número ha sido encontrado en el índice {mid}')
+      print('El número ha sido encontrado en el índice')
     else:
       print('El número no está en la lista')
 
