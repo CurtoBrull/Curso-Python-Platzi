@@ -5,8 +5,8 @@
 def palindromo(palabra):
   palabra = palabra.replace(' ', '') # Reemplazamos todos los espacios por un nada ''
   palabra = palabra.lower()
-  palabra_invertida = palabra[::-1]
-  if palabra == palabra_invertida:
+  # Usamos slice -1 para invertir la palabra
+  if palabra == palabra[::-1]:
     return True
   else:
     return False

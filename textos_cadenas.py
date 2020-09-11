@@ -35,3 +35,12 @@ print(letra)
 
 lenght = len(nombre)
 print(lenght)
+print(nombre[len(nombre)-1])
+
+# JOIN añade el valor
+print(nombre)
+print('2'.join(nombre))
+
+str = "-"
+seq = ("a", "b", "c")
+print(str.join( seq ))
