@@ -1,1 +1,2 @@
-print(poblacion)
+if num % 2 == 0:
+  
