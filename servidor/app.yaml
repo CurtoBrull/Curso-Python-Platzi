@@ -1,0 +1,7 @@
+service: default
+runtime: python38
+
+handlers:
+- url: .*
+script: main.app
+secure: always
